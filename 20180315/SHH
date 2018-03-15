@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="utf-8"/><meta name="viewport"content="width=device-width,initial-scale=1"/>
+  <script>
+    function event1onclick() {
+      document.getElementById("id_1").innerHTML
+      ="플레 못감";
+    }
+    
+
+  </script>
+<title>송현호</title>
+</head>
+<body>
+<h1>
+<p onclick="event1onclick()">송현호 특)</p>
+</h1>
+<p id="id_1">O_o!?</p>
+</body>
+</html>
