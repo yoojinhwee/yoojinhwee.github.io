@@ -36,7 +36,7 @@ a {text-decoration:none;}
 <h2>변수 예제 실습</h2>
 <script>
 
-var name="홍길동:, age=21, flag=true, color=0xF00;
+var name="홍길동", age=21, flag=true, color=0xF00;
 document.write("일반변수:"+"이름="+name+",나이="+age+", 나이>20="+flag+", 색="+color+"<br/>");
 
 function MyClass(){
@@ -52,7 +52,7 @@ document.write("객체변수:"+"이름="+person.name+",나이="+person.age+",나
 person.nextAge(person.age,10);
 
 var color16= color.toString(16);
-document.write(color+""+ color16);
+document.write(color+" "+ color16);
 $(document).ready(function(){ 
  $("footer").css("color","#"+color16);
 }
